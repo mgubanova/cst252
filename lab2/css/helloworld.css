@@ -1,0 +1,23 @@
+body {
+    font-family: Helvetica, "san serif";
+    background-color: darkgray;
+    padding: 25px;
+    font-size: 120%;
+}
+h1, h2, h3 {
+    font-family: "Courier New", monospace;
+}
+h1 {
+  border-style: solid;
+  text-align: center;
+}
+p {
+    text-decoration: none;
+    color: maroon;
+    text-align: center;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
