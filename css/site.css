@@ -1,44 +1,45 @@
 body {
-    font-family: Helvetica, "san serif";
-    background-color: darkgray;
+    font-family: "Verdana", sans-serif;
+    background-color: #DCADF1;
     padding: 25px;
-    font-size: 120%;
+    font-size: 100%;
 }
 h1, h2, h3 {
-    font-family: "Courier New", monospace;
+    font-family: "Verdana", sans-serif;
 }
 h1 {
-  border-style: solid;
-  text-align: center;
+  text-align: left;
 }
 p {
     text-decoration: none;
-    color: maroon;
-    text-align: center;
+    color: black;
+    text-align: left;
 }
 img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   box-shadow: 5px 5px 3px grey;
 }
-#content {border: solid 1px #888;
+#right {
+  float: right;
+  max-width: 300px;
+}
+.content {border: groove 1px #000;
   display: block;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 10px;
-  padding: auto 20px 10px 20px;
-  width: 95%;
-  margin: 20px;
-  margin-bottom: 5px;
-  background-color: #fff;}
-#links {border: solid 1px #888;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding: auto 30px 10px 30px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 10px;
+  background-color: #F8F5F9;
+overflow: auto}
+.links {border: groove 1px #000;
   display: block;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
   padding: auto 20px 10px 20px;
-  width: 95%;
-  margin: 20px;
-  margin-bottom: 5px;
-  background-color: #fff;}
+  width: 90%;
+  margin: auto;
+  background-color: #F8F5F9;}
