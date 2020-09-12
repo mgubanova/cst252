@@ -9,8 +9,14 @@ h1, h2, h3 {
 }
 h1 {
   text-align: left;
+  font-size: 150%;
+}
+h2 {
+  text-align: left;
+  font-size: 120%;
 }
 p {
+    font-family: "Verdana", sans-serif;
     text-decoration: none;
     color: black;
     text-align: left;
