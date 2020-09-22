@@ -16,3 +16,7 @@ figcaption {
   padding: 5px;
   text-align: center;
 }
+.roman {
+ list-style-type: lower-roman;
+ padding: 10px
+}
