@@ -1,23 +1,22 @@
 /*
-  * Author: Marta Gubanova
-  * Partner: Sebastian Tamiano
-  * Created: 19 September 2020
+  * Authors: Marta Gubanova & Sebastian Tamiano
+  * Created: 22 September 2020
   * License: Public Domain
 */
-// Define an array and an object
-var myTransport = ["Car", "Bicycle", "On foot", "Bus"];
-
-var myMainRide = {
-  make: "Honda",
-  model: "Civic",
-  year: 2007,
-  color: "Grey",
-  age: function() {
-    return 2020 - year
-  }
-};
+// Function: accepts a string and sorts it in alphabetical order
+// Param: string
+// Returns: sorted, reverse array
+function sortUserName(userName) {
+return userName.toLowerCase().split("").sort().join("");
+}
+// Function: prompts user input
+function main() {
+var userName = window.prompt("ALPHABETIZ-O-RAY! Enter any word to alphabetize it and see the result at the bottom!");
 
 // Output
-document.writeln("This is how I get around: " + myTransport + "<br>");
-document.writeln("My main ride is a car: <pre>",
-    JSON.stringify(myMainRide, null, '\t'), "</pre>");
+document.writeln("<style>:root {--textlen: " + userName.length + ";}</style>");
+var sortedName = sortUserName(userName);
+document.writeln("ZAP! Here's your alphabetized word: " + "</br>" + sortedName);
+}
+// Input
+main();
