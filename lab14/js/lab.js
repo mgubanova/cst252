@@ -15,7 +15,7 @@ function Vehicle(type, make, model, year, color) {
   this.year = year;
   this.color = color;
   this.info = function() {
-    return "I get around using a " + this.type + ". It's a " + this.color + " " + this.year + " " + this.type + " " + this.make + " " + this.model + ".";
+    return "I get around using a " + this.type + ". It's a " + this.color + " " + this.year + " " + " " + this.make + " " + this.model + ".";
   }
 }
 // Create new objects using the constructor
