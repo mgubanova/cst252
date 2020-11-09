@@ -1,0 +1,32 @@
+.output {
+  font-size: 150%;
+  height: auto;
+  background-color: rgba(255,255,255,0.5);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+img {
+  display: block;
+  height: auto;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+figure {
+  background-color: white
+  padding: 4px;
+  margin: auto;
+}
+figcaption {
+  color: black;
+  font-style: italic;
+  padding: 5px;
+  text-align: center;
+}
+#my-button {
+  background-color: purple;
+  color: white;
+  width: 200px;
+  font-family: bold;
+}
